@@ -1,0 +1,23 @@
+{
+    "name": "latlog/latlog",
+    "description": "The latency logger project. Store ICMP latency in time series database and project graphs in Grafana",
+    "keywords": ["icmp", "latency", "ping", "graphs", "latlog", "latency logger"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.3|^8.0",
+        "latlog/app": "dev-master"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    }
+}
