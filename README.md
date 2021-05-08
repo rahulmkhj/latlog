@@ -1,8 +1,8 @@
 #  TO-DO
+- [x] Added support for ~~--debug~~ -v ( verbose ) flag to help with troubleshooting.
 - [ ] Create a systemd process to daemonize the process
+- [ ] Write an easy-to-follow Installation / User guide
 - [ ] Test on few different hosts.
-- [x] Add support for ~~--debug~~ -v ( verbose ) flag to help with troubleshooting.
-- [ ] Write an easy to follow Installation / User guide
 - [ ] when all above points are checked, tag a stable release.
 
 ## Future Roadmap
